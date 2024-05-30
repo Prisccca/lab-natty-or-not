@@ -1,51 +1,79 @@
-# Natural ou Fake Natty? Como Vencer na Era das IAs Generativas
 
-## 🚀 Introdução
 
-> Woooow! Look at this 👀
-
-Olá pessoal, Venilton da DIO aqui! Inspirado na hype _"Natty or Not"_ do fisiculturismo, este Lab da DIO te convida a conhecer o mundo das IAs Generativas, explorando o potencial dessas tendências tecnológicas incríveis!
-
-## 🎯 Bora Pro Desafio!? Você Já Venceu 💪🤓
-
-### Objetivos
-
-1. **Explorar IAs Generativas**: Utilize essas tecnologias para criar conteúdos que sejam o mais realista possível. Seja criativo! Você pode produzir imagens, textos, áudios, vídeos ou combinações de tudo isso!
-1. **Potfólio de Projetos**:
-    1. Faça o "fork" deste repositório, criando uma cópia em seu GitHub pessoal;
-    2. Edite seu README com os detalhes do seu projeto, siga nosso [Template](#template) (é só copiar, colar e preencher);
-    3. Submeta o link do seu repositório na plataforma da DIO. Pronto, você acabou de fortalecer seu portfólio de projetos nos perfis do GitHub e DIO 🚀
-1. **Efeito de Rede**: Compartilhe seus resultados nas redes sociais com a hashtag **#LabDIONattyOrNot**. Não esqueça de nos marcar: [DIO](https://www.linkedin.com/school/dio-makethechange) e [falvojr](https://www.linkedin.com/in/falvojr).
-
-### Template
+### Meu Projeto: Story Generator
 
 ```markdown
-# Título do Projeto Extremamente Aesthetic ;)
+# StoryGenerator
 
 ## 📒 Descrição
-Breve descrição do seu projeto
+Desenvolver uma IA que cria histórias curtas baseadas em temas fornecidos pelo usuário.
+
 
 ## 🤖 Tecnologias Utilizadas
-Liste as IAs Generativas e outras ferramentas usadas
+IAs Generativas Utilizadas no Projeto StoryGenerator
+GPT (Generative Pre-trained Transformer)
+Modelo principal para geração de textos.
+Exemplos: GPT-3, GPT-4 (Hugging Face Transformers).
+Ferramentas e Tecnologias Utilizadas
+Linguagem de Programação
+Python
+Frameworks de IA
+TensorFlow
+PyTorch
+Hugging Face Transformers
+Ferramentas de Pré-processamento de Dados
+NLTK (Natural Language Toolkit)
+SpaCy
+Desenvolvimento Web
+Flask
+Django
+React (para a interface do usuário)
+Controle de Versão
+Git
+Ambiente de Desenvolvimento e Outras Ferramentas
+Jupyter Notebooks (para exploração de dados e experimentos)
+VS Code ou PyCharm (IDE para desenvolvimento)
+Documentação e Gestão do Projeto
+Markdown (README.md e documentação)
+Sphinx (para gerar documentação técnica)
+Trello ou Jira (para gerenciamento de tarefas)
+Testes
+pytest (para testes automatizados)
+Deployment
+Docker (para containerização)
+Heroku ou AWS (para hospedar a aplicação)
+Estas ferramentas e tecnologias proporcionam uma base sólida para o desenvolvimento, treinamento, implementação e manutenção do projeto StoryGenerator.
 
 ## 🧐 Processo de Criação
-Descreva como você criou o conteúdo
+Solicitando á IA Gnerativa Chat GPT-4 que construisse para mim o projeto baseado nos caomandos que dei a ela.
 
 ## 🚀 Resultados
-Apresente os resultados do seu projeto
+Exemplo de Estrutura de Projeto
+Aqui está uma estrutura básica para um projeto de IA generativa focada na criação de histórias curtas:
 
-## 💭 Reflexão (Opcional)
-Comente sobre o desafio de criar algo 'natty' com IA.
-```
+Diretório Principal: StoryGenerator
+data/: Diretório para armazenar datasets.
+raw/: Dados brutos.
+processed/: Dados pré-processados.
+models/: Diretório para armazenar modelos treinados e scripts de treinamento.
+notebooks/: Jupyter notebooks para exploração de dados e experimentos.
+src/: Código fonte.
+preprocessing/: Scripts para pré-processamento de dados.
+training/: Scripts de treinamento de modelos.
+generation/: Scripts para geração de histórias.
+webapp/: Código da aplicação web.
+docs/: Documentação do projeto.
+tests/: Scripts de testes automatizados.
+requirements.txt: Lista de dependências do projeto.
+README.md: Descrição geral do projeto e instruções de uso.
+Ferramentas e Tecnologias Sugeridas
+Linguagem de Programação: Python
+Frameworks de IA: TensorFlow, PyTorch, Hugging Face Transformers
+Pré-processamento de Dados: NLTK, SpaCy
+Desenvolvimento Web: Flask, Django, React
+Controle de Versão: Git
 
-### Exemplos e Insigths
+## 💭 Reflexão
+Projeto criado em uma conversa com uma IA Generativa.
 
-- [E-BOOK](/exemplos/E-BOOK.md)
-- [Podcast](/exemplos/PODCAST.md)
-- [Vídeo (Avatar Virtual)](/exemplos/VIDEO.md)
 
-## Links Interessantes
-
-[Base10: If You’re Not First, You’re Last: How AI Becomes Mission Critical](https://base10.vc/post/generative-ai-mission-critical/)
-
-![Base10's Trend Map Generative AI](https://github.com/digitalinnovationone/lab-natty-or-not/assets/730492/f4df26e8-f8f7-4419-8252-c69d73ea930c)
